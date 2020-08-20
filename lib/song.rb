@@ -15,7 +15,7 @@ class Song
   ###### PROBLEM BELOW
 
   def artist_name
-    if self.artist.name
+    if self.artist
       self.artist.name
     else
       nil
