@@ -21,6 +21,4 @@ class Author
     # Author .post_count is a class method that returns the total number of posts associated to all existing authors
   end
 
-
-
 end
