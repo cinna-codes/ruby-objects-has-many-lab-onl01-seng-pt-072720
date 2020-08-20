@@ -12,8 +12,6 @@ class Song
     @@all
   end
 
-  ###### PROBLEM BELOW
-
   def artist_name
     if self.artist
       self.artist.name
