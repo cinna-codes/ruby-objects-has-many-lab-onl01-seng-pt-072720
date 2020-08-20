@@ -17,7 +17,7 @@ class Artist
   def add_song_by_name(new_song)
     # takes in an argument of a song name, creates a new song with it and associates the song and artist (FAILED - 3)
     new_song = Song.new(new_song)
-    new_song.self
+    new_song.artist = self
   end
 
   def self.song_count
