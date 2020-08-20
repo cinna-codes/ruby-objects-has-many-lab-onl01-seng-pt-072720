@@ -12,8 +12,4 @@ class Post
     @@all
   end
 
-  def method_name
-
-  end
-
 end
