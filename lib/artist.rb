@@ -6,7 +6,7 @@ class Artist
   end
 
   def songs
-    Song.all
+    Song.all.select { self }
   end
 
   def add_song(new_song)
