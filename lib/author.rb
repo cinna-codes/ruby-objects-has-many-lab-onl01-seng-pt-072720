@@ -5,4 +5,8 @@ class Author
     @name = name
   end
 
+  def posts
+    Post.all.select { self }
+  end
+
 end
