@@ -11,6 +11,7 @@ class Artist
 
   def add_song(new_song)
     # takes in an argument of a song and associates that song with the artist by telling the song that it belongs to that artist
+    new_song.self
   end
 
   def add_song_by_name(new_song)
