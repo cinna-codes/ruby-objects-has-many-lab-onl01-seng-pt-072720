@@ -24,7 +24,7 @@ class Artist
     # is a class method that returns the total number of songs associated to all existing artists (FAILED - 4)
     #Song.all #{ self }
     #Song.all.artist.count
-    Song.all.select
+    Song.all.select { |so| so.artist }.count
   end
 
 end
